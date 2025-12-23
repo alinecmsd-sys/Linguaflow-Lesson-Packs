@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Packs de Lições – Nível Básico</title>
+    <title>Packs de Lições – Inglês</title>
 
     <style>
         body {
@@ -16,38 +16,51 @@
         header {
             background: #2a74ff;
             color: white;
-            padding: 20px;
+            padding: 24px;
             text-align: center;
         }
 
         h1 {
             margin: 0;
-            font-size: 28px;
+            font-size: 30px;
             font-weight: 600;
         }
 
         .container {
             width: 90%;
-            max-width: 700px;
-            margin: 30px auto;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+
+        .packs-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #2a74ff;
+            text-align: center;
         }
 
         .card {
             background: white;
-            padding: 20px;
-            border-radius: 12px;
+            padding: 22px;
+            border-radius: 14px;
             margin-bottom: 20px;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
         }
 
-        .card h2 {
+        .card h3 {
             margin: 0 0 10px 0;
-            font-size: 22px;
+            font-size: 20px;
             color: #333;
         }
 
         .card p {
-            margin: 0 0 15px 0;
+            margin: 0 0 16px 0;
             color: #555;
             line-height: 1.5;
         }
@@ -56,7 +69,7 @@
             display: inline-block;
             background: #2a74ff;
             color: white;
-            padding: 12px 18px;
+            padding: 12px 20px;
             text-decoration: none;
             border-radius: 8px;
             font-size: 16px;
@@ -70,8 +83,15 @@
         footer {
             text-align: center;
             color: #777;
-            padding: 20px;
+            padding: 24px;
             font-size: 14px;
+        }
+
+        /* Responsivo */
+        @media (max-width: 768px) {
+            .packs-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -79,121 +99,89 @@
 <body>
 
 <header>
-    <h1>Packs de Lições – Nível Básico</h1>
+    <h1>Packs de Lições – Inglês</h1>
 </header>
 
 <div class="container">
 
-    <!-- Pack 1 -->
-    <div class="card">
-        <h2>Pack 1 – Básico</h2>
-        <p>
-            Pack 1 de lições focado nos primeiros verbos, como <strong>eat</strong>,
-            <strong>drink</strong>, <strong>speak</strong> e <strong>like</strong>,
-            com vocabulário essencial, frases simples no presente
-            e exercícios interativos para iniciantes.
-        </p>
-        <a class="btn" href="https://chk.eduzz.com/Q9N5K2OZ01" target="_blank">
-            Acessar Pack 1
-        </a>
-    </div>
+    <div class="packs-grid">
 
-    <!-- Pack 2 -->
-    <div class="card">
-        <h2>Pack 2 – Básico</h2>
-        <p>
-            Pack 2 com ampliação de vocabulário e prática do
-            <strong>verbo to be</strong> no presente, incluindo frases afirmativas,
-            negativas e interrogativas usadas no dia a dia.
-        </p>
-        <a class="btn" href="https://chk.eduzz.com/69KAXO170O" target="_blank">
-            Acessar Pack 2
-        </a>
-    </div>
+        <!-- ===================== -->
+        <!-- PACKS BÁSICOS -->
+        <!-- ===================== -->
+        <div>
+            <h2 class="section-title">📘 Packs Básicos</h2>
 
-    <!-- Pack 3 -->
-    <div class="card">
-        <h2>Pack 3 – Básico</h2>
-        <p>
-            Pack 3 focado na construção de frases mais completas,
-            introduzindo novos verbos e o uso do passado simples,
-            com vocabulário funcional e exercícios interativos.
-        </p>
-        <a class="btn" href="https://chk.eduzz.com/39ZQD7KD9E" target="_blank">
-            Acessar Pack 3
-        </a>
-    </div>
+            <div class="card">
+                <h3>Pack 1 – Básico</h3>
+                <p>Primeiros verbos, frases simples no presente e exercícios interativos.</p>
+                <a class="btn" href="https://chk.eduzz.com/Q9N5K2OZ01" target="_blank">Acessar Pack 1</a>
+            </div>
 
-    <!-- Pack 4 -->
-    <div class="card">
-        <h2>Pack 4 – Básico</h2>
-        <p>
-            Pack 4 com prática guiada para consolidar o uso de verbos,
-            futuro com <strong>going to</strong>, além de
-            <strong>should</strong> e <strong>would like</strong>.
-        </p>
-        <a class="btn" href="https://chk.eduzz.com/6W48DR5N0Z" target="_blank">
-            Acessar Pack 4
-        </a>
-    </div>
+            <div class="card">
+                <h3>Pack 2 – Básico</h3>
+                <p>Verbo to be no presente, frases afirmativas, negativas e interrogativas.</p>
+                <a class="btn" href="https://chk.eduzz.com/69KAXO170O" target="_blank">Acessar Pack 2</a>
+            </div>
 
-    <!-- Pack 5 -->
-    <div class="card">
-        <h2>Pack 5 – Básico</h2>
-        <p>
-            Pack 5 focado em números, família, horas em inglês,
-            passado simples, uso de <strong>need</strong> e
-            <strong>prefer</strong>, perguntas com <strong>why</strong>
-            e <strong>because</strong>, além de vocabulário sobre clima.
-        </p>
-        <a class="btn" href="https://chk.eduzz.com/1W3ZEBY5W2" target="_blank">
-            Acessar Pack 5
-        </a>
-    </div>
+            <div class="card">
+                <h3>Pack 3 – Básico</h3>
+                <p>Frases mais completas e introdução ao passado simples.</p>
+                <a class="btn" href="https://chk.eduzz.com/39ZQD7KD9E" target="_blank">Acessar Pack 3</a>
+            </div>
 
-    <!-- Pack 6 -->
-    <div class="card">
-        <h2>Pack 6 – Inglês Básico (Lições 26 a 30)</h2>
-        <p>
-            Pack voltado à consolidação do inglês básico, com revisão
-            do passado simples, preposições de tempo,
-            verbos modais e estruturas como <strong>There is / There are</strong>.
-        </p>
-        <a class="btn" href="https://chk.eduzz.com/6W48D7ON0Z" target="_blank">
-            Acessar Pack 6
-        </a>
-    </div>
+            <div class="card">
+                <h3>Pack 4 – Básico</h3>
+                <p>Futuro com going to, should e would like.</p>
+                <a class="btn" href="https://chk.eduzz.com/6W48DR5N0Z" target="_blank">Acessar Pack 4</a>
+            </div>
 
-    <!-- Pack 7 -->
-    <div class="card">
-        <h2>Pack 7 – Inglês Básico (Lições 31 a 35)</h2>
-        <p>
-            Pack 7 focado em <strong>tag questions</strong>,
-            verbos no passado, expressões como
-            <strong>whatever, whenever, wherever</strong>,
-            além de adjetivos comparativos e superlativos,
-            com forte prática de listening.
-        </p>
-        <a class="btn" href="https://chk.eduzz.com/7WXQ3NOD9A" target="_blank">
-            Acessar Pack 7
-        </a>
-    </div>
+            <div class="card">
+                <h3>Pack 5 – Básico</h3>
+                <p>Números, família, horas, passado simples e vocabulário essencial.</p>
+                <a class="btn" href="https://chk.eduzz.com/1W3ZEBY5W2" target="_blank">Acessar Pack 5</a>
+            </div>
 
-        <!-- Pack 8 -->
-    <div class="card">
-        <h2>Pack 8 – Inglês Intermediário (Lições 36 a 40)</h2>
-        <p>
-            Pack intermediário focado no desenvolvimento de estruturas mais avançadas,
-            como <strong>can / can’t</strong>, concordância com
-            <strong>so</strong> e <strong>neither</strong>,
-            <strong>first</strong> e <strong>second conditional</strong>,
-            além do uso de <strong>used to</strong> para hábitos do passado.
-        </p>
-        <a class="btn" href="https://chk.eduzz.com/60EE33K603" target="_blank">
-            Acessar Pack 8
-        </a>
-    </div>
+            <div class="card">
+                <h3>Pack 6 – Básico</h3>
+                <p>Revisão geral do básico e estruturas fundamentais.</p>
+                <a class="btn" href="https://chk.eduzz.com/6W48D7ON0Z" target="_blank">Acessar Pack 6</a>
+            </div>
 
+            <div class="card">
+                <h3>Pack 7 – Básico</h3>
+                <p>Tag questions, comparativos, superlativos e listening.</p>
+                <a class="btn" href="https://chk.eduzz.com/7WXQ3NOD9A" target="_blank">Acessar Pack 7</a>
+            </div>
+        </div>
+
+        <!-- ===================== -->
+        <!-- PACKS INTERMEDIÁRIOS -->
+        <!-- ===================== -->
+        <div>
+            <h2 class="section-title">📗 Packs Intermediários</h2>
+
+            <div class="card">
+                <h3>Pack 8 – Intermediário</h3>
+                <p>
+                    Can / can’t, so / neither, condicionais
+                    e used to para hábitos do passado.
+                </p>
+                <a class="btn" href="https://chk.eduzz.com/60EE33K603" target="_blank">Acessar Pack 8</a>
+            </div>
+
+            <div class="card">
+                <h3>Pack 9 – Intermediário (Lições 41 a 45)</h3>
+                <p>
+                    Present perfect, contraste com passado simples,
+                    expressões do dia a dia e prática intensiva de listening.
+                </p>
+                <a class="btn" href="https://chk.eduzz.com/89AQ6BDGWD" target="_blank">Acessar Pack 9</a>
+            </div>
+
+        </div>
+
+    </div>
 
 </div>
 
